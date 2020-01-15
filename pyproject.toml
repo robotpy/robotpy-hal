@@ -85,3 +85,6 @@ license = "BSD-3-Clause"
 install_requires = [
     "robotpy-wpiutil>=2020.1.2.1,<2021.0.0",
 ]
+
+[tool.robotpy-build.macos_lib_locations]
+"libwpiutil.dylib" = "wpiutil/lib/libwpiutil.dylib"
