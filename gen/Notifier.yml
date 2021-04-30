@@ -5,6 +5,7 @@ strip_prefixes:
 
 functions:
   HAL_InitializeNotifier:
+  HAL_SetNotifierThreadPriority:
   HAL_SetNotifierName:
   HAL_StopNotifier:
   HAL_CleanNotifier:
